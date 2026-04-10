@@ -2,3 +2,5 @@
 .env.*
 !.env.example
 result
+.vscoe
+_pycache_
