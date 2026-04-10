@@ -1,6 +1,6 @@
 .env
 .env.*
 !.env.example
-result
-.vscode
-_pycache_
+result/
+.vscode/
+**/__pycache__/
