@@ -1,0 +1,14 @@
+{
+  "model_name": "kling-video-o1",
+  "prompt": "严格遵循 <<<video_1>>> 的运镜。将车身变为浅紫色，补全内饰颜色。背景设定在繁华的好莱坞星光大道，环境和光影参考 <<<image_1>>>。电影级光影，照片级真实，8k分辨率。",
+  "mode": "pro",
+  "aspect_ratio": "16:9",
+  "video_list": [
+    {
+      "video_url": "https://scenecam.snaix.homes/artifacts/sessions/26471c66/output.mp4",
+      "refer_type": "base",
+      "keep_original_sound": "yes"
+    }],
+  "image_list": [
+    {"image_url":"https://raw.githubusercontent.com/yeqingmo/klying/main/Avenue_of_Stars_2.png"}]
+}

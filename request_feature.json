@@ -1,0 +1,21 @@
+{
+  "model_name": "kling-video-o1",
+  "prompt": "参考<<<video_1>>>动作节奏，融合<<<image_1>>>风格生成新镜头",
+  "mode": "pro",
+  "aspect_ratio": "16:9",
+  "seconds": "5",
+  "image_list": [
+    {
+      "image_url": "https://example.com/style.jpg"
+    }
+  ],
+  "video_list": [
+    {
+      "video_url": "https://example.com/input.mp4",
+      "refer_type": "feature",
+      "keep_original_sound": "no"
+    }
+  ],
+  "callback_url": "https://your-domain.com/kling/callback",
+  "external_task_id": "order-20260410-feature-001"
+}
